@@ -1,0 +1,19 @@
+.imageError404{
+    margin-top: 25px;
+    width:70vw;
+    border-radius:25px;
+}
+
+.divMobileError{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+
+    .divMobileError{
+        display: block;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+}

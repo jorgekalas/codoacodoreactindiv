@@ -1,0 +1,15 @@
+main {
+	min-height: 83.5vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.toastMessage {
+	width: 60rem;
+}
+
+
+.themeButton:hover {
+	transform: scale(1.1);
+	opacity: 0.9;
+}
